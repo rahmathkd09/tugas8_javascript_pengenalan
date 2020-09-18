@@ -1,0 +1,13 @@
+function panggilObject(){
+	var buku={
+		judul:"Belajar Programming",
+		warna:"Merah",
+		kategori:"Dewasa",
+		Harga:100000
+	}
+	buku.kategori="Semua Umur"
+	buku.warna="biru"
+	console.log(buku)
+	console.log(buku.kategori)
+}
+panggilObject()
